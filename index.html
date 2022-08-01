@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Touch Nums</title>
+  </head>
+  <body onload="init()">
+    <div class="main-container">
+      <h1>Num picker game!</h1>
+      <div class="selections">
+        <button class="button new-game" onclick="reset()">New Game</button>
+
+        <button class="button button-selections" onclick="getDifficulty(this)">
+          Very easy
+        </button>
+        <button class="button button-selections" onclick="getDifficulty(this)">
+          Easy
+        </button>
+        <button class="button button-selections" onclick="getDifficulty(this)">
+          Medium
+        </button>
+        <button class="button button-selections" onclick="getDifficulty(this)">
+          Hard
+        </button>
+      </div>
+      <div class="counters">
+        <p>
+          Time:
+          <span class="min">00</span>
+          :
+          <span class="sec">00</span>
+          :
+          <span class="milisec">000</span>
+        </p>
+        <p class="current-value"></p>
+      </div>
+      <div class="board-container">
+        <table>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+    <script src="js/util.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

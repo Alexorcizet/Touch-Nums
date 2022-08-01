@@ -1,0 +1,93 @@
+table,
+tr,
+td {
+  border: 1px solid black;
+}
+
+h1 {
+  margin: 15px auto;
+}
+
+.current-value {
+  font-size: 2rem;
+}
+
+.current-value span {
+  color: blue;
+}
+
+table {
+  width: 330px;
+  height: 330px;
+  margin: 0 auto 20px;
+  background-color: rgb(248, 201, 112);
+}
+
+td {
+  font-size: 25px;
+  background-color: aliceblue;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.main-container {
+  width: 700px;
+  height: 800px;
+  background-color: azure;
+  border: 1px solid black;
+  margin: 100px auto;
+  text-align: center;
+}
+.button {
+  background-color: rgb(143, 189, 212);
+  width: 125px;
+  font-size: larger;
+  font-weight: 700;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  width: 135px;
+  height: 60px;
+  margin: 0 10px;
+}
+
+.new-game {
+  display: block;
+  margin: 15px auto;
+}
+
+.new-game:hover {
+  margin: 0.4rem auto;
+  height: 50px;
+}
+
+.button-selections {
+  margin: 15px;
+}
+.selections {
+  width: 100%;
+  height: 15%;
+  margin: 20px auto;
+}
+.counters {
+  font-size: 2rem;
+}
+.board-container {
+  width: 100%;
+  height: fit-content;
+  text-align: center;
+}
+
+.milisec {
+  column-width: 50px;
+  min-width: 50px;
+}
+
+.sec {
+  min-width: 50px;
+}
